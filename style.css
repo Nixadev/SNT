@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #313131;
+    color: rgb(255, 250, 242);
+}
+
+header {
+    /* background: red; */
+    margin: 0;
+    width: 100%;
+    height: 30vh;
+    /* padding: 2rem; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+section {
+    padding: 2rem;
+}
+
+h3 {
+    font-size: 2em;
+    text-decoration: underline 2.5px;
+    margin-bottom: 2rem;
+}
+
+ul {
+    margin: 2rem;
+}
+
+.question {
+    margin: 5px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
