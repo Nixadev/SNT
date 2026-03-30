@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Parkinsans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #313131;
     color: rgb(255, 250, 242);
 }
@@ -31,8 +31,12 @@ section {
 
 h3 {
     font-size: 2em;
-    text-decoration: underline 2.5px;
+    /* text-decoration: underline 2.5px; */
     margin-bottom: 2rem;
+    span {
+        color: #1793D1;
+        /* text-decoration: underline 2.5px #1793D1; */
+    }
 }
 
 ul {
@@ -45,3 +49,7 @@ ul {
     font-size: 1.2em;
 }
 
+a {
+    color: rgb(255, 250, 242);
+
+}
